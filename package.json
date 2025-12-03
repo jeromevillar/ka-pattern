@@ -1,0 +1,24 @@
+{
+  "name": "001.popiplay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mysql2": "^3.10.2",
+    "node-fetch": "^2.7.0",
+    "pako": "^2.1.0",
+    "protobufjs": "^7.3.2",
+    "sequelize": "^6.37.3",
+    "ws": "^8.18.0"
+  }
+}
