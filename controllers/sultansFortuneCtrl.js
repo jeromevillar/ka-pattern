@@ -1,7 +1,7 @@
 
 const db = require('../models');
-const Model = db.treasurebowl;
-const gameCode = "TreasureBowl";
+const Model = db.sultansfortune;
+const gameCode = "SultansFortune";
 
 exports.loadPattern = async (req, res) => {
     let resData = req.body;
@@ -12,7 +12,7 @@ exports.loadPattern = async (req, res) => {
     }
     big++;
     
-    const betAmount = 0.88 * 100;
+    const betAmount = 0.20 * 100;
     let gameDone = 0;
     let small = 1;
     try {

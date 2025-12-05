@@ -1,7 +1,7 @@
 
 const db = require('../models');
-const Model = db.treasurebowl;
-const gameCode = "TreasureBowl";
+const Model = db.greatestshow;
+const gameCode = "GreatestShow";
 
 exports.loadPattern = async (req, res) => {
     let resData = req.body;
