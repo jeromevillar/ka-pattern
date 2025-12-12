@@ -32,6 +32,12 @@ exports.loadPattern = async (req, res) => {
 
         console.log("=============================> big:" + big + " win:" + resData.res.md.tw);
     
+        if (!isFree) {
+            return res.status(200).send({
+                result: 'success'
+            });
+        }
+        
         await Model.create({
             gameCode: gameCode,
             pType: isFree ? 'free' : resData.res.md.tw > 0 ? 'base-win' : 'base-zero',

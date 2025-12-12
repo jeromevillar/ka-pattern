@@ -31,8 +31,6 @@ exports.loadPattern = async (req, res) => {
         }
 
         console.log("=============================> big:" + big + " win:" + resData.res.md.tw);
-
-        console.log("=============================> big:" + big + " win:" + resData.res.md.tw);
     
         if (!isFree) {
             return res.status(200).send({
